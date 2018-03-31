@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA947C44-C535-4372-A851-A70601B7AFE0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interview_Preparation</RootNamespace>
+    <AssemblyName>Interview_Preparation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Array\ArraySumPairs.cs" />
+    <Compile Include="ASCIICipher.cs" />
+    <Compile Include="GCD_Greatest-Common-Divisor.cs" />
+    <Compile Include="DoublyLinkedList\ReverseDoublyLinkedList.cs" />
+    <Compile Include="CSharp_Programming\ClassLikeString.cs" />
+    <Compile Include="CompressString.cs" />
+    <Compile Include="CSharp_Programming\CoVariance_ContraVariance.cs" />
+    <Compile Include="DecompressString.cs" />
+    <Compile Include="CSharp_Programming\Equals.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="FunnyString.cs" />
+    <Compile Include="CSharp_Programming\Hashtable.cs" />
+    <Compile Include="CSharp_Programming\Inheritance.cs" />
+    <Compile Include="CSharp_Programming\Inheritance1.cs" />
+    <Compile Include="CSharp_Programming\Inheritance2.cs" />
+    <Compile Include="CSharp_Programming\Inheritance3.cs" />
+    <Compile Include="IsPermutationsOfPalindrome.cs" />
+    <Compile Include="LinkedList\ReverseLinkedList.cs" />
+    <Compile Include="LinkedList\LinkedListMoveByN.cs" />
+    <Compile Include="LinkedList\LinkedListSumPairs.cs" />
+    <Compile Include="MaxOccurenceNumerInArray.cs" />
+    <Compile Include="NunberSequence.cs" />
+    <Compile Include="PalindromeIndex.cs" />
+    <Compile Include="PartialFunction.cs" />
+    <Compile Include="PartialMethods.cs" />
+    <Compile Include="PowerOf2.cs" />
+    <Compile Include="PrimeNumber.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringPermutation.cs" />
+    <Compile Include="SumOfDigitsInNumber.cs" />
+    <Compile Include="YieldTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
